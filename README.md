@@ -103,3 +103,8 @@ Latihan Ngoding Bareng Decomus WeatherApp
             <td>Paragraf yang menampilkan label "Wind Speed".</td>
         </tr>
     </table>
+<hr>
+<p>Kerangka yang digunakan didalam CSS</p>
+
+<hr>
+<p>Kerangka yang digunakan didalam Javascript</p>
