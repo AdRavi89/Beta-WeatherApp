@@ -105,6 +105,99 @@ Latihan Ngoding Bareng Decomus WeatherApp
     </table>
 <hr>
 <p>Kerangka yang digunakan didalam CSS</p>
-
+    <table>
+        <tr>
+            <th>Kode CSS</th>
+            <th>Penjelasan</th>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Selector universal yang memengaruhi semua elemen. Mengatur margin dan padding menjadi 0, box-sizing menjadi border-box, border menjadi none, outline menjadi none, dan font-family menjadi sans-serif.</td>
+        </tr>
+        <tr>
+            <td>body</td>
+            <td>Selector untuk elemen &lt;body&gt;. Mengatur tinggi minimum menjadi 100vh, menampilkan elemen sebagai flex container yang terpusat secara horizontal dan vertikal, dan mengatur latar belakang menjadi #3ec0e0.</td>
+        </tr>
+        <tr>
+            <td>.container</td>
+            <td>Selector untuk elemen dengan kelas "container". Mengatur lebar menjadi 400px, tinggi yang menyesuaikan kontennya, latar belakang menjadi #fff, diberi border-radius 12px untuk sudut yang melengkung, dan memiliki padding 28px.</td>
+        </tr>
+      <tr>
+            <td>.search-box input</td>
+            <td>Selector untuk elemen input di dalam elemen dengan kelas "search-box". Mengatur lebar menjadi 100%, ukuran font menjadi 20px, teks menjadi kapital, warna teks menjadi hitam, latar belakang menjadi #e6f5fb, padding 12px di atas dan bawah serta 16px di kiri dan kanan, diberi border-radius 14px.</td>
+        </tr>
+        <tr>
+            <td>.search-box input ::placeholder</td>
+            <td>Selector untuk pseudo-elemen placeholder pada elemen input di dalam elemen dengan kelas "search-box". Mengatur warna teks placeholder menjadi hitam.</td>
+        </tr>
+        <tr>
+            <td>.search-box button</td>
+            <td>Selector untuk elemen button di dalam elemen dengan kelas "search-box". Mengatur lebar dan tinggi menjadi 46px, latar belakang menjadi #e6f5fb, diberi border-radius 50%, menampilkan kursor pointer, dan ukuran font menjadi 20px.</td>
+        </tr>
+        <tr>
+            <td>.search-box button:hover</td>
+            <td>Selector untuk elemen button di dalam elemen dengan kelas "search-box" saat digerakkan (hover). Mengatur warna teks menjadi putih dan latar belakang menjadi #ababab.</td>
+        </tr>
+        <tr>
+            <td>.weather-body</td>
+            <td>Selector untuk elemen dengan kelas "weather-body". Mengatur tampilan elemen menjadi flex container dengan penataan konten dan arah kolom, serta margin atas sebesar 20px. Awalnya, elemen ini tidak ditampilkan (display: none).</td>
+        </tr>
+        <tr>
+            <td>.weather-body img</td>
+            <td>Selector untuk elemen &lt;img&gt; di dalam elemen dengan kelas "weather-body". Mengatur lebar menjadi 60%.</td>
+        </tr>
+        <tr>
+            <td>.weather-box</td>
+            <td>Selector untuk elemen dengan kelas "weather-box". Mengatur tampilan elemen ini dan seluruh kontennya menjadi tengah, serta margin atas sebesar 20px.</td>
+        </tr>
+        <tr>
+            <td>.weather-box .temperature</td>
+            <td>Selector untuk elemen dengan kelas "temperature" di dalam elemen "weather-box". Mengatur ukuran font menjadi 40px, ketebalan font menjadi 800, dan menambahkan elemen &lt;sup&gt; sebagai anak dengan ukuran font 20px dan ketebalan font 600.</td>
+        </tr>
+        <tr>
+            <td>.weather-box .description</td>
+            <td>Selector untuk elemen dengan kelas "description" di dalam elemen "weather-box". Mengatur ukuran font menjadi 20px, ketebalan font menjadi 700, dan mengubah teks menjadi kapital.</td>
+        </tr>
+        <tr>
+            <td>.weather-details</td>
+            <td>Selector untuk elemen dengan kelas "weather-details". Mengatur lebar menjadi 100% dan menampilkan elemen ini sebagai flex container dengan penataan konten terdistribusi seimbang di antara elemen-elemen anaknya.</td>
+        </tr>
+        <tr>
+            <td>.humidity, .wind</td>
+            <td>Selector untuk elemen dengan kelas "humidity" dan "wind". Mengatur tampilan elemen ini sebagai flex container dengan anak-anak yang diatur untuk menampilkan konten secara vertikal.</td>
+        </tr>
+        <tr>
+            <td>.humidity</td>
+            <td>Selector untuk elemen dengan kelas "humidity". Mengatur margin kiri sebesar 20px.</td>
+        </tr>
+        <tr>
+            <td>.wind</td>
+            <td>Selector untuk elemen dengan kelas "wind". Mengatur margin kanan sebesar 20px.</td>
+        </tr>
+        <tr>
+            <td>.weather-details i</td>
+            <td>Selector untuk elemen &lt;i&gt; di dalam elemen dengan kelas "weather-details". Mengatur ukuran font menjadi 36px.</td>
+        </tr>
+        <tr>
+            <td>.weather-details .text</td>
+            <td>Selector untuk elemen dengan kelas "text" di dalam elemen "weather-details". Mengatur margin kiri sebesar 10px dan ukuran font menjadi 16px.</td>
+        </tr>
+        <tr>
+            <td>.text span</td>
+            <td>Selector untuk elemen &lt;span&gt; di dalam elemen dengan kelas "text". Mengatur ukuran font menjadi 20px dan ketebalan font menjadi 700.</td>
+        </tr>
+        <tr>
+            <td>.location-not-found</td>
+            <td>Selector untuk elemen dengan kelas "location-not-found". Mengatur margin atas sebesar 20px dan menampilkan elemen ini sebagai flex container dengan penataan konten, arah kolom, dan posisi yang terpusat.</td>
+        </tr>
+        <tr>
+            <td>.location-not-found h1</td>
+            <td>Selector untuk elemen &lt;h1&gt; di dalam elemen dengan kelas "location-not-found". Mengatur ukuran font menjadi 20px, warna teks menjadi #6b6b6b, dan margin bawah sebesar 15px.</td>
+        </tr>
+        <tr>
+            <td>.location-not-found img</td>
+            <td>Selector untuk elemen &lt;img&gt; di dalam elemen dengan kelas "location-not-found". Mengatur lebar menjadi 80%.</td>
+        </tr>
+    </table>
 <hr>
 <p>Kerangka yang digunakan didalam Javascript</p>
