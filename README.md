@@ -107,8 +107,8 @@ Latihan Ngoding Bareng Decomus WeatherApp
 <p>Kerangka yang digunakan didalam CSS</p>
     <table>
         <tr>
-            <th>Kode CSS</th>
-            <th>Penjelasan</th>
+            <th>Elemen CSS</th>
+            <th>Deskripsi</th>
         </tr>
         <tr>
             <td>*</td>
