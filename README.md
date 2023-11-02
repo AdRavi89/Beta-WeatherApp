@@ -201,3 +201,134 @@ Latihan Ngoding Bareng Decomus WeatherApp
     </table>
 <hr>
 <p>Kerangka yang digunakan didalam Javascript</p>
+   <table>
+        <tr>
+            <th>Kode JavaScript</th>
+            <th>Penjelasan</th>
+        </tr>
+        <tr>
+            <td><code>const inputBox = document.querySelector(".input-box");</code></td>
+            <td>Menggunakan <code>document.querySelector</code> untuk memilih elemen HTML dengan kelas CSS "input-box", yang merupakan kotak input untuk memasukkan lokasi.</td>
+        </tr>
+        <tr>
+            <td><code>const searchBtn = document.getElementById("searchBtn");</code></td>
+            <td>Menggunakan <code>document.getElementById</code> untuk memilih elemen HTML dengan ID "searchBtn", yang merupakan tombol pencarian.</td>
+        </tr>
+        <tr>
+            <td><code>const weather_img = document.querySelector(".weather-img");</code></td>
+            <td>Menggunakan <code>document.querySelector</code> untuk memilih elemen HTML dengan kelas CSS "weather-img", yang akan menampilkan gambar cuaca.</td>
+        </tr>
+        <tr>
+            <td><code>const temperature = document.querySelector(".temperature");</code></td>
+            <td>Menggunakan <code>document.querySelector</code> untuk memilih elemen HTML dengan kelas CSS "temperature", yang akan menampilkan temperatur cuaca.</td>
+        </tr>
+        <tr>
+            <td><code>const description = document.querySelector(".description");</code></td>
+            <td>Menggunakan <code>document.querySelector</code> untuk memilih elemen HTML dengan kelas CSS "description", yang akan menampilkan deskripsi cuaca.</td>
+        </tr>
+        <tr>
+            <td><code>const humidity = document.getElementById("humidity");</code></td>
+            <td>Menggunakan <code>document.getElementById</code> untuk memilih elemen HTML dengan ID "humidity", yang akan menampilkan kelembaban cuaca.</td>
+        </tr>
+        <tr>
+            <td><code>const wind_speed = document.getElementById("wind-speed");</code></td>
+            <td>Menggunakan <code>document.getElementById</code> untuk memilih elemen HTML dengan ID "wind-speed", yang akan menampilkan kecepatan angin cuaca.</td>
+        </tr>
+        <tr>
+            <td><code>const location_not_found = document.querySelector(".location-not-found");</code></td>
+            <td>Menggunakan <code>document.querySelector</code> untuk memilih elemen HTML dengan kelas CSS "location-not-found", yang akan menampilkan pesan "Lokasi Tidak Ditemukan".</td>
+        </tr>
+        <tr>
+            <td><code>const weather_body = document.querySelector(".weather-body");</code></td>
+            <td>Menggunakan <code>document.querySelector</code> untuk memilih elemen HTML dengan kelas CSS "weather-body", yang akan menampilkan wadah informasi cuaca.</td>
+        </tr>
+    <tr>
+            <td>&lt;input&gt;</td>
+            <td>Input untuk memasukkan lokasi.</td>
+        </tr>
+        <tr>
+            <td>&lt;button&gt;</td>
+            <td>Tombol pencarian dengan ikon.</td>
+        </tr>
+        <tr>
+            <td>&lt;div class="location-not-found"&gt;</td>
+            <td>Pesan yang ditampilkan jika lokasi tidak ditemukan.</td>
+        </tr>
+        <tr>
+            <td>&lt;h1&gt;</td>
+            <td>Pesan kesalahan.</td>
+        </tr>
+        <tr>
+            <td>&lt;img&gt;</td>
+            <td>Gambar kesalahan 404.</td>
+        </tr>
+        <tr>
+            <td>&lt;img class="weather-img"&gt;</td>
+            <td>Gambar cuaca.</td>
+        </tr>
+        <tr>
+            <td>&lt;p class="temperature"&gt;</td>
+            <td>Temperatur dalam derajat Celsius.</td>
+        </tr>
+        <tr>
+            <td>&lt;p class="description"&gt;</td>
+            <td>Deskripsi cuaca.</td>
+        </tr>
+        <tr>
+            <td>&lt;div class="weather-details"&gt;</td>
+            <td>Informasi kelembaban dan kecepatan angin.</td>
+        </tr>
+     <tr>
+            <td>&lt;div class="search-box"&gt;</td>
+            <td>Wadah untuk input lokasi dan tombol pencarian.</td>
+        </tr>
+        <tr>
+            <td>&lt;div class="weather-body"&gt;</td>
+            <td>Wadah untuk menampilkan informasi cuaca.</td>
+        </tr>
+        <tr>
+            <td>&lt;div class="weather-box"&gt;</td>
+            <td>Wadah untuk menampilkan temperatur dan deskripsi cuaca.</td>
+        </tr>
+        <tr>
+            <td>&lt;p class="temperature"&gt;</td>
+            <td>Temperatur dalam derajat Celsius.</td>
+        </tr>
+        <tr>
+            <td>&lt;sup&gt;&deg;C&lt;/sup&gt;</td>
+            <td>Superskrip untuk menunjukkan satuan derajat Celsius.</td>
+        </tr>
+        <tr>
+            <td>&lt;p class="description"&gt;</td>
+            <td>Deskripsi cuaca, misalnya "hujan ringan".</td>
+        </tr>
+        <tr>
+            <td>&lt;div class="weather-details"&gt;</td>
+            <td>Wadah untuk menampilkan detail cuaca seperti kelembaban dan kecepatan angin.</td>
+        </tr>
+        <tr>
+            <td>&lt;div class="humidity"&gt;</td>
+            <td>Bagian yang menampilkan kelembaban cuaca.</td>
+        </tr>
+        <tr>
+            <td>&lt;div class="wind"&gt;</td>
+            <td>Bagian yang menampilkan kecepatan angin cuaca.</td>
+        </tr>
+        <tr>
+            <td>&lt;i class="fa-sharp fa-solid fa-droplet"&gt;</td>
+            <td>Ikon tetes air (simbol kelembaban).</td>
+        </tr>
+        <tr>
+            <td>&lt;i class="fa-solid fa-wind"&gt;</td>
+            <td>Ikon angin.</td>
+        </tr>
+        <tr>
+            <td>&lt;p&gt;</td>
+            <td>Paragraf yang menampilkan nilai kelembaban atau kecepatan angin.</td>
+        </tr>
+        <tr>
+            <td>&lt;span&gt;</td>
+            <td>Elemen untuk menampilkan nilai persentase kelembaban atau kecepatan angin.</td>
+        </tr>
+    </table>
+
